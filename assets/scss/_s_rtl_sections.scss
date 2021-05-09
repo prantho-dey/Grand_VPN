@@ -1,0 +1,392 @@
+@use "common" as *;
+
+.main-menu ul li {
+  margin-right: 0;
+  margin-left: 26px;
+}
+
+.main-menu ul li .submenu {
+  left: auto;
+  right: 0;
+}
+
+.main-menu ul > li.has-dropdown .has-dropdown > a::before {
+  right: auto;
+  left: -60px;
+}
+
+.main-menu ul li .submenu li .submenu {
+  left: auto;
+  right: 100%;
+}
+
+.header-left ul li {
+  margin-right: 0;
+  margin-left: 80px;
+  @include mq(lg) {
+    margin-right: 0;
+    margin-left: 40px;
+  }
+  @include mq(md) {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}
+
+.header-lang .lang-icon a {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.header-lang .header-lang-list li a img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.hero-content .compatible-device .compatible-device-icon a {
+  margin-right: 0;
+  margin-left: 6px;
+}
+
+.price-item .price-features ul {
+  padding-right: 0;
+}
+
+.price-item .price-features ul li i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.country-common .country-icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.sidebar-toggle-btn {
+  @include mq(lg) {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  @include mq(md) {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  @include mq(sm) {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  @include mq(xs) {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+// vpn-protocols-page-css
+.pros-open-vpn-list {
+  padding-right: 0;
+  padding-left: 34px;
+}
+
+.pros-open-vpn-list ul li {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pros-open-vpn-list ul li::before {
+  left: auto;
+  width: 20px;
+  right: -40px;
+}
+
+.faq__wrapper .accordion-item .accordion-header .accordion-button {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.faq__wrapper .accordion-item {
+  padding-right: 35px;
+  padding-left: 15px;
+}
+
+.faq__wrapper .accordion-item .accordion-header .accordion-button::after {
+  right: auto;
+  left: 0;
+}
+
+.accordion-body {
+  padding-right: 0;
+}
+
+.pros-open-vpn-list p {
+  @include mq(xs) {
+    padding-left: 0;
+  }
+}
+
+
+// vpn-encryption-page-css
+.vpn-protocols-wrapper .vpn-protocols-desc {
+  padding-right: 0;
+  padding-left: 20px;
+  @include mq(md) {
+    padding-left: 0;
+  }
+  @include mq(sm) {
+    padding-left: 0;
+  }
+  @include mq(xs) {
+    padding-left: 0;
+  }
+}
+
+.ikev2-desc {
+  padding-right: 0;
+  padding-left: 26px;
+  @include mq(xs) {
+    padding-left: 0;
+  }
+}
+
+.cyberghost-desc.data-sought-desc {
+  @include mq(xs) {
+    padding-right: 0;
+  }
+}
+
+// sign-in-page-css
+.basic-signin {
+  margin-left: 0;
+  margin-right: 30px;
+  @include mq(md) {
+    margin-right: 0;
+  }
+  @include mq(sm) {
+    margin-right: 0;
+  }
+  @include mq(xs) {
+    margin-right: 0;
+  }
+}
+
+.basic-signin input {
+  padding-left: 0;
+  padding-right: 47px;
+}
+
+.signin-form::after {
+  left: 0;
+  right: 0px;
+}
+
+.view-password {
+  right: auto;
+  left: 12px;
+}
+
+.social-media-btn svg {
+  margin-right: 0;;
+  margin-left: 5px;
+}
+
+.social-media-btn a {
+  margin-right: 0;
+  margin-left: 19px;
+  @include mq(xl) {
+    margin-left: 0;
+  }
+  @include mq(lg) {
+    margin-left: 0;
+  }
+}
+
+
+// protect-device-page-css
+div.digital-invisible-column .nav-link {
+  text-align: right;
+}
+
+div.digital-invisible-column .nav-link::after {
+  left: auto;
+  right: 0;
+}
+
+.mobile-apps-thumb {
+  float: right;
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+.mobile-apps-text p {
+  padding-right: 0;
+  padding-left: 45px;
+  @include mq(xs) {
+    padding-left: 0;
+  }
+}
+
+.me-3 {
+  margin-left: 1rem !important;
+}
+
+.cyberghost-area .cyberghost-right-thumb {
+  right: auto;
+  left: 145px;
+  @include mq(xs) {
+    left: 0;
+  }
+}
+
+.syberghost-single-thumb {
+  float: right;
+  margin-right: 0;
+  margin-left: 40px;
+  @include mq(xs) {
+    float: none;
+    margin-left: 0;
+  }
+}
+
+.cyberghost-area .cyberghost-right-thumb {
+  @include mq(xl) {
+    left: -175px;
+    right: auto;
+  }
+  @include mq(lg) {
+    left: -175px;
+    right: auto;
+  }
+  @include mq(md) {
+    left: -113px;
+    right: auto;
+  }
+}
+
+.cyberghost-single-text p {
+  @include mq(xs) {
+    padding-right: 0;
+  }
+}
+
+
+// privacy-policy-page-css
+.what-vpn-video .play-btn span {
+  padding-right: 0;
+  padding-left: 16px;
+}
+
+.why-need-vpn-text p {
+  padding-right: 0;
+  padding-left: 36px;
+  @include mq(xs) {
+    padding-left: 0;
+  }
+}
+
+.why-need-vpn-text.position-hide-text p {
+  padding-left: 0;
+}
+
+
+// log-in-page-css
+.forgot-password {
+  right: auto;
+  left: 0;
+}
+
+.forgot-password i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+// checkout-page-css
+.payment-method-form-wrapper input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.payment-form-icon::after {
+  left: 0;
+  right: 16px;
+}
+
+.slide-bar {
+  right: auto;
+  left: -330px;
+}
+
+.slide-bar.show {
+  left: 0;
+  right: auto;
+}
+
+.side-mobile-menu ul li.has-dropdown > a:after {
+  right: auto;
+  left: 16px;
+}
+
+.side-mobile-menu ul li ul li {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.side-mobile-menu ul li ul li a:before {
+  left: auto;
+  right: 0;
+}
+
+.side-mobile-menu ul li ul li a {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.promotional-offer .timer .countdown-list > div {
+  margin-right: 0;
+  margin-left: 26px;
+}
+
+.promotional-offer .timer .countdown-list > div:after {
+  right: auto;
+  left: -17px;
+}
+
+.promotional-offer .timer .countdown-list > div:last-child {
+  margin-left: 0;
+}
+
+.plan-info .plan-info-text.plan-info-text-02 .plan-info-device a {
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+.payment-method-single-item::before {
+  left: auto;
+  right: 16px;
+}
+
+.payment-method-single-item::after {
+  left: auto;
+  right: 14px;
+}
+
+.cupon-code-btn button {
+  right: auto;
+  left: 0;
+}
+
+.nice-select {
+  text-align: right !important;
+  padding-left: 30px;
+  padding-right: 18px;
+}
+
+.nice-select .list {
+}
+
+.nice-select .option {
+  text-align: right;
+}
+
+.nice-select:after {
+  right: auto;
+  left: 12px;
+}

@@ -1,0 +1,130 @@
+@use "common" as *;
+.feature-btn i {
+	margin-left: 0px;
+	margin-right: 5px;
+}
+.solution-wrapper ul li {
+	padding-left: 0;
+	padding-right: 50px;
+}
+.solution-wrapper ul li i {
+	left: auto;
+	right: 16px;
+}
+.footer_social a i:first-child {
+	left: auto;
+    right: -60px;
+}
+.footer_social a:hover i:first-child {
+	left: auto;
+	right: 0;
+    padding: 10px;
+}
+.footer_social a:hover i:last-child {
+	left: auto;
+    right: 60px;
+}
+.footer_social a {
+	margin-right: 0px;
+	margin-left: 6px;
+}
+.page-title-nav ul li {
+	margin-right: 0;
+	margin-left: 25px;
+}
+.page-title-nav ul li::after {
+	right: auto;
+	left: -16px;
+}
+.page-title-wrapper-2 .breadcrumb-btn .btn-border {
+	margin-left: 0px;
+	margin-right: 25px;
+}
+.icon-box .icon-box-icon2::before {
+	left: auto;
+	right: 190px;
+}
+.icon-box .icon-box-icon1::before {
+	left: auto;
+	right: 190px;
+}
+.table-tab .nav-tabs {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.table-form {
+	margin-right: 0px;
+	margin-left: 8px;
+}
+.item-inner :is(.flag-thumb) {
+	margin-right: 0px;
+    margin-left: 20px;
+}
+.choose-about-wrapper p {
+	padding-right: 0px;
+	padding-left: 100px;
+    @include mq(xs) {
+        padding-left: 0px;
+    }
+    @include mq(md) {
+        padding-left: 0px;
+    }
+}
+.table-tab .nav {
+	padding-right: 0;
+	padding-left: 0px;
+}
+.nutshell-wrapper {
+	padding: 28px 30px 10px 30px;
+}
+.benifits-tab .nav-tabs .nav-link::after {
+	left: auto;
+	right: 0;
+}
+.benifits-tab .tab-content {
+	margin-left: 0px;
+	padding-right: 40px;
+	margin-right: 40px;
+	@include mq(xs) {
+        margin-right: 0px;
+    }
+}
+.benifits-tab .nav-tabs .nav-link {
+	text-align: right;
+}
+.promotional-offer .text {
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.plan-info .plan-info-icon {
+	padding-right: 0px;
+	padding-left: 12px;
+}
+.payment-method {
+	padding-left: 0px;
+	padding-right: 45px;
+}
+.payment-method-thumb {
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 45px;
+}
+.order-summery-wrapper .order-summery-ofer ul li span {
+	float: left;
+}
+.order-summery-wrapper .order-summery-ofer ul {
+	padding: 0;
+}
+.privacy-left-side ul li a::after {
+	left: auto;
+	right: 0;
+	top: 0;
+}
+.privacy-left-side {
+	margin-right: 0px;
+	margin-left: 70px;
+}
+.privacy-meta img {
+	margin-right: 0px;
+	margin-left: 8px;
+}
